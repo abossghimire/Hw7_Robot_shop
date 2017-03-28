@@ -1,0 +1,36 @@
+#include <iostream>
+#include <string.h>
+#include <vector>
+#include "Robot_model.cpp"
+#include "Robot_part.cpp"
+#include <iostream>
+#include <string>
+#include <FL/Fl.H>
+#include <FL/Fl_Box.H>
+#include <FL/Fl_Menu_Bar.H>
+#include <FL/fl_Input.H>
+#include <FL/fl_Multiline_Input.H>
+#include <FL/fl_Button.H>
+#include <FL/fl_Return_Button.H>
+#include <FL/fl_Widget.H>
+#include <FL/fl_Window.H>
+#include "Robot_model.cpp"
+#include "Robot_part.cpp"
+#include "Robot_part.h"
+#include "Sales_associate.h"
+#include "Shop.h"
+#include "Order.h"
+#include "Customer.h"
+
+using namespace std;
+
+int main() 
+
+{
+	
+cout << " The program is Working" << endl;
+	
+return 0;
+
+}
+
