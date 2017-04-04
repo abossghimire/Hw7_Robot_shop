@@ -1,0 +1,70 @@
+#include <iostream>
+
+#include <FL/Fl.H>
+
+#include <FL/Fl_Window.H>
+
+#include <FL/Fl_Menu_Bar.H>
+
+#include <FL/Fl_Input.H>
+
+#include <FL/Fl_Multiline_Input.H>
+
+#include <FL/Fl_Button.H>
+
+#include <FL/Fl_Return_Button.H>
+
+#include<string>
+
+#include<vector>
+
+
+
+
+
+using namespace std;
+
+
+
+
+int main() {
+
+    const int X = 250;
+
+    const int Y = 160;
+
+
+
+    // Create dialogs
+
+    robot_part_dlg = new Robot_diolog{};
+
+    robot_dialog = new Robot_dialog{};
+
+
+
+   
+
+    win = new Fl_Window{X, Y, "Lightning robot"};
+
+    win->color(FL_Red);
+
+
+
+    // Install menu bar
+
+    menu = new Fl_Menu_Bar(0, 0, X, 30);
+
+    menu -> menu(menuitems);
+
+
+
+   
+
+    win->end();
+
+    win->show();
+
+    return(Fl::run());
+
+}

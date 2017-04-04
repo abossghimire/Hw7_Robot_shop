@@ -1,0 +1,39 @@
+#include <iostream>
+
+#ifndef _battety_
+
+#define _battery_
+
+#include<iostream>
+
+#include<string>
+
+#include<vector>
+
+
+
+
+
+using namespace std;
+
+
+
+class battery {
+
+public:
+
+    vector <string> type, description, name;
+
+    vector <double> cost, weight;
+
+    vector <int> number;
+
+    void storing(string t, string n, int num, double cst, double w, string d);
+
+    void print();
+
+};
+
+
+
+#endif

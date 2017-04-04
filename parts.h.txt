@@ -1,0 +1,32 @@
+#include <iostream>
+#include <vector>
+#include <fstream>
+#include<iterator>
+
+using namespace std;
+
+class robo
+{
+public:
+	string name;
+	string type;
+	double weight;
+	double cost;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#endif

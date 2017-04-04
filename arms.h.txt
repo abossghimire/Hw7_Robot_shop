@@ -1,0 +1,40 @@
+
+#include <iostream>
+
+#ifndef _ARMS_
+
+#define _ARMS_
+
+#include<iostream>
+
+#include<string>
+
+#include<vector>
+
+
+
+
+
+using namespace std;
+
+
+
+class Arms{
+
+public:
+
+    vector <string> type, description, name;
+
+    vector <double> cost, weight;
+
+    vector <int> number;
+
+    void store(string t, string n, int numb, double cst, double w, string d);
+
+    void print();
+
+};
+
+
+
+#endif

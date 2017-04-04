@@ -1,0 +1,39 @@
+#include <iostream>
+
+#ifndef _leg_
+
+#define _leg_
+
+#include<iostream>
+
+#include<string>
+
+#include<vector>
+
+
+
+
+
+using namespace std;
+
+
+
+class leg{
+
+public:
+
+    vector <string> type, description, name;
+
+    vector <double> cost, weight;
+
+    vector <int> number;
+
+    void store(string t, string n, int numb, double cst, double w, string d);
+
+    void print();
+
+};
+
+
+
+#endif
