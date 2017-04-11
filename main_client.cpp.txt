@@ -1,0 +1,13 @@
+#include "Controller.h"
+
+
+int main()
+
+{
+	Shop robotshop;
+	View view(robotshop);
+	Controller controller(robotshop, view);
+	controller.client();
+
+
+}

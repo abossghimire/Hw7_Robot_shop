@@ -1,0 +1,27 @@
+#ifndef VIEW_H
+#define VIEW_H
+#include <string>
+#include "Shop.h"
+
+class View{
+public:
+	
+std::string menu();
+
+std::string robot_models();
+	
+std::string create_part_menu();
+	
+std::string customers_menu();
+	
+std::string sales_associates_menu();
+	
+
+std::string view_orders_menu();
+
+
+private:
+	robotshop;
+};
+
+#endif

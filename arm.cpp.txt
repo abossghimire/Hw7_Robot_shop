@@ -1,0 +1,29 @@
+#include <iostream>
+#include <string.h>
+#include <iostream>
+#include <string>
+
+
+class Arm : public Robot_part{
+
+public:
+   Arm(std::string _name, 
+       int model_number,
+       double _price,
+       std::string _description) : 
+   }
+   
+   std::string get_info();
+   std::string save_to_file();
+   
+
+private:
+
+double length;
+double power;
+
+};
+   
+   double length;
+   double max_power;
+};

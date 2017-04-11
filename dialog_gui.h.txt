@@ -1,0 +1,56 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <iostream>
+#include <string>
+#include <FL/Fl.H>
+#include <FL/Fl_Return_Button.H>
+#include <FL/Fl_Button.H>
+#include <FL/fl_ask.H>
+#include <FL/Fl_Text_Display.H>
+#include <FL/Fl_Window.H>
+#include <FL/Fl_Shared_Image.H>
+#include <FL/Fl_JPEG_Image.H>
+#include <FL/Fl_Input.H>
+#include <FL/Fl_Multiline_Input.H>
+#include "view.h"
+#include "parts.h"
+#include "battery.h"
+#inclde  "arms.h"
+
+
+
+void robot_dialog_showCB(Fl_Widget* w, void* p);
+
+
+void Quit(Fl_Widget* w, void* p)
+{
+	exit(0);
+}
+
+class robot_dialog
+{
+	public :
+	robot_parts() {
+		
+
+
+
+dialog = new Fl_Window(340,270,"Robot Parts");
+
+rp_head = new Fl_Button(100, 50, 120, 25, "Head");
+		
+
+		torso = new Fl_Button(100, 80, 120, 25, "Torso");
+		
+
+		arm = new Fl_Button(100, 110, 120, 25, "Arm");
+		
+
+		locomotor = new Fl_Button(100, 140, 120, 25, "Locomotor");
+		
+
+		battery = new Fl_Button(100, 170, 120, 25, "Battery");
+
+};
+

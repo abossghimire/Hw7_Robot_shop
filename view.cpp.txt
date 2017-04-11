@@ -1,0 +1,24 @@
+#include "View.h"
+
+
+std::string View:: menu(){
+
+std::string menu = get "(
+----------------------------------------------------
+Pick an option please 
+----------------------------------------------------
+1)Create a robot part 
+2)Create robot model 
+3)create order 
+4)View robot parts
+5)Create a Customer
+6)View a Sales Associate
+7)Create sales associate
+8)View Customers
+9)View Sales Associates
+10)View Orders
+11)Load
+12)Save
+0)Exit
+----------------------------------------------------
+)";
