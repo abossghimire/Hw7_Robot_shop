@@ -1,5 +1,9 @@
+#include<iostream>
 #include<string>
-//comment test
+#include<string>
+#include"View.h"
+
+
 using std::string;
 
 class Customer
@@ -20,3 +24,21 @@ public:
 	void set_phone_number(string);
 	void set_email_number(string);
 };
+
+
+
+
+void View::show_menu()
+{
+    cout << endl << endl;
+    cout << "==========" << endl;
+    cout << "Main Menu" << endl;
+    cout << "==========" << endl;
+    cout << endl;
+    cout << "(1) ---Product Manager----" << endl;
+    cout << "(2) ---Beloved Customer---" << endl;
+    cout << "(3) ---Sales Associate---" << endl;
+    cout << "(4) ----Pointed-Haired Boss---" << endl;
+    cout << "(0) Exit" << endl;
+}
+

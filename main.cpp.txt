@@ -24,24 +24,13 @@
 
 using namespace std;
 
-int main()
-{
-	int n = 1;
-	while (n==1)
-	{
-		menu();
-	}
-}
+int main() 
 
+{
+	
+cout << " The program is Working" << endl;
 	
 return 0;
 
 }
 
-void menu()
-	{
-		cout << "Welcome to the lightning Robot Shop!\n";
-		cout << "What would you like to to do? (\n";
-		cout << "(1). Create\n(2). Report\n(3). Quit\n(4.) \n";
-		control();
-	}

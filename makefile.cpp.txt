@@ -1,0 +1,30 @@
+# Makefile for Roving Robots
+CXXFLAGS += --std=c++11
+
+all: main
+
+debug: CXXFLAGS += -g
+debug: main
+
+Robot_part.o: Robot_part.cpp Robot_part.h
+	g++ -c Robotpart.cpp
+
+customer.o: customer.h customer.cpp
+	g++ -c customer.cpp
+
+Arm.o: arm.h arm.cpp
+	g++ -c Arm.cpp
+
+Head.o: Head.h head.cpp
+	g++ -c Head.cpp
+
+Battery.o: battery.h battery.cpp
+	g++ -c Battery.cpp
+
+Leg.o: Leg.h Leg.cpp
+	g++ -c Torso.cpp
+
+main.o: main.cpp
+	g++ -c main.cpp
+clean:
+	-rm -f *.o *~ a.out
