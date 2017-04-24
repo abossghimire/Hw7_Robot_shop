@@ -1,0 +1,23 @@
+lass Orders
+{
+public:
+
+	int orderNum;
+	string date;
+	model mod;
+	string status;
+        string customer;
+	string salesAssociate ;
+	double shipping, tax, price, total;
+
+};
+
+class model
+{
+public:
+
+	string name;
+	int model;
+	double price;
+	
+} ;
